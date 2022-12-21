@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import About from "./About";
 
 const StyledBody = styled.div`
   background-color: #c69214;
@@ -7,8 +8,9 @@ const StyledBody = styled.div`
 
 function Home() {
   return (
-    <div classname="App-body">
-      <StyledBody>Fuck</StyledBody>
+    <div className="App-body">
+      {/*<StyledBody>Rhys Pulling</StyledBody> */}
+      <About />
     </div>
   );
 }
