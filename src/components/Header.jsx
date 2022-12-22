@@ -1,30 +1,29 @@
 import React from "react";
-import styled from "styled-components";
+import { StyledHeader, StyledHead } from "./styledcomponents";
 import { Outlet } from "react-router-dom";
-
-const StyledHeader = styled.header`
-  background: #154734;
-  min-height: 225px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
-
-const StyledHead = styled.h1`
-  font-size: calc(75px);
-  color: #f2c75c;
-  text-align: center;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-`;
+import { StyledLink } from "./styledcomponents";
 
 function Header() {
   return (
     <>
       <StyledHeader>
         <StyledHead>Welcome!</StyledHead>
+        <nav classname="nav">
+          <h2>
+            <button>
+              <StyledLink to="">Home</StyledLink>
+            </button>
+            <button>
+              <StyledLink to="about">About Me</StyledLink>
+            </button>
+            <button>
+              <StyledLink to="education">Education</StyledLink>
+            </button>
+            <button>
+              <StyledLink to="languages">Languages</StyledLink>
+            </button>
+          </h2>
+        </nav>
       </StyledHeader>
       <Outlet />
     </>
