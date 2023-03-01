@@ -4,6 +4,7 @@ import me from "../images/me.JPG";
 import insta from "../images/insta.png";
 import github from "../images/github.png";
 import linked from "../images/linkedin.png";
+import resume from "../images/Rhys Pulling Resume 2022.docx.pdf";
 
 function Glass() {
   return (
@@ -11,7 +12,9 @@ function Glass() {
       <div className="card">
         <div className="content">
           <div className="img">
-            <img src={me} alt="Rhys Pulling" />
+            <a href={resume} target="_blank">
+              <img src={me} alt="Rhys Pulling" />
+            </a>
           </div>
           <div className="cardContent">
             <h3>
