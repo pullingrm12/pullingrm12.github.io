@@ -1,36 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Projects() {
+  const [index, setIndex] = useState(0);
+  const projects = [
+    "Movie Review Website",
+    "3D Image Rendering",
+    "Reformatting Program Using OOP-convention",
+    "Emulator and Simulator for MIPS Assembly",
+    "Created own Simplified Make Function",
+    "Created own Simplified Find Function",
+    "Animal Guessing Game",
+    "Created Programming Language (IKEU)",
+    "Analyzed Multiple Movie Databases",
+  ];
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setIndex((index) => (index + 1) % projects.length);
+    }, 3000);
+    return () => clearInterval(id);
+  });
   return (
     <div className="container">
       <div className="card">
         <div className="content">
           <div className="cardContent">
-            <h1>
+            <h3>
               Projects<br></br>
-            </h1>
-            <p className="cardP">
-              <strong>JavaScript / React : </strong>
-              <li>Movie Review Website</li>
-            </p>
-            <p className="cardP">
-              <strong>Python : </strong>
-              <li>3D Image Rendering</li>
-            </p>
-            <p className="cardP">
-              <strong>Java : </strong>
-              <li>Reformatting Program Using OOP-convention</li>
-              <li>Emulator and Simulator for MIPS Assembly</li>
-            </p>
-            <p className="cardP">
-              <strong>C : </strong>
-              <li>Created own Simplified Make Function</li>
-              <li>Animal Guessing Game</li>
-            </p>
-            <p className="cardP">
-              <strong>Racket : </strong>
-              <li>Created Programming Language (IKEU)</li>
-            </p>
+            </h3>
+            <p>{projects[index]}</p>
           </div>
         </div>
       </div>
