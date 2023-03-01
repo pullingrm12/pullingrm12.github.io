@@ -24,24 +24,26 @@ function Education() {
   ];
 
   return (
-    <StyledCon>
-      <StyledHead>Education</StyledHead>
-      <img src={campus} alt="Cal Poly Campus" width={500} />
-      <StyledHead2>
-        College : California Polytechnic State University, San Luis Obispo
-      </StyledHead2>
-      <StyledHead2>
-        Major : Computer Science (pursuing minor in statistics){" "}
-      </StyledHead2>
-      <StyledHead2>Current GPA : 3.535</StyledHead2>
-      <StyledHead2>Graduation : June 2024</StyledHead2>
-      <StyledHead2>Critical Coursework : </StyledHead2>
-      <div classname="courses">
-        {courses?.map((course) => {
-          return <StyledList>{course}</StyledList>;
-        })}
+    <div className="container">
+      <div className="card">
+        <div className="content">
+          <div className="about-cardContent">
+            <h1>Education</h1>
+            <h2>
+              College : California Polytechnic State University, San Luis Obispo
+            </h2>
+            <h2>Major : Computer Science (pursuing minor in statistics) </h2>
+            <h3>Current GPA : 3.535</h3>
+            {/*<h3>Critical Coursework : </h3>
+            <div classname="courses">
+              {courses?.map((course) => {
+                return <li>{course}</li>;
+              })} 
+            </div> */}
+          </div>
+        </div>
       </div>
-    </StyledCon>
+    </div>
   );
 }
 

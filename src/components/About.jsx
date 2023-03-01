@@ -1,23 +1,33 @@
 import React from "react";
-import { StyledCon, StyledHead, StyledPara } from "./styledcomponents";
-import me from "../images/me.JPG";
+import "../css/App.css";
 
 function About() {
   return (
-    <StyledCon maxwidth="md">
-      <StyledHead>About Me</StyledHead>
-      <img src={me} alt="Rhys Pulling" height={300} />
-      <StyledPara>
-        My name is Rhys Pulling. I am a third year Computer Science student
-        attending California Polytechnic State University, San Luis Obispo.
-        Better known as Cal Poly SLO. I'm originally from Colorado and love
-        being active and playing a variety of sports, the main ones being
-        volleyball (doubles) and basketball. I'm currently looking for an
-        internship for Summer 2023 and am interested in Software Engineering,
-        Data Science, and Artificial Intelligence. I love learning and can pick
-        up things fast. I'm willing to talk to anyone interested!
-      </StyledPara>
-    </StyledCon>
+    <div className="container">
+      <div className="card">
+        <div className="content">
+          <div className="about-cardContent">
+            <h1>About Me</h1>
+            <p>
+              <strong>College:</strong> California Polytechnic State University,
+              San Luis Obispo
+            </p>
+            <p>
+              <strong>Graduation Date:</strong> June 2024
+            </p>
+            <p>
+              <strong>Major:</strong> Computer Science
+            </p>
+            <p>
+              <strong>Minor:</strong> Statistics
+            </p>
+            <p>
+              <strong>Current GPA:</strong> 3.5
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

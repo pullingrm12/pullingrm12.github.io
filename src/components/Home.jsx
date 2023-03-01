@@ -1,15 +1,14 @@
 import React from "react";
-import About from "./About";
-import Education from "./Education";
-import Languages from "./Languages";
+import Glass from "./GlassMorph.jsx";
+import About from "./About.jsx";
+import Education from "./Education.jsx";
 
 function Home() {
   return (
-    <div className="App-body">
-      {/*<StyledBody>Rhys Pulling</StyledBody> */}
+    <div>
+      <Glass />
       <About />
       <Education />
-      <Languages />
     </div>
   );
 }
