@@ -6,23 +6,17 @@ function About() {
     <div className="container">
       <div className="card">
         <div className="content">
-          <div className="about-cardContent">
+          <div className="cardContent">
             <h1>About Me</h1>
-            <p>
-              <strong>College:</strong> California Polytechnic State University,
-              San Luis Obispo
+            <p className="cardP">
+              <strong>Age:</strong> 20
             </p>
-            <p>
-              <strong>Graduation Date:</strong> June 2024
+            <p className="cardP">
+              <strong>Location:</strong> Highlands Ranch, CO
             </p>
-            <p>
-              <strong>Major:</strong> Computer Science
-            </p>
-            <p>
-              <strong>Minor:</strong> Statistics
-            </p>
-            <p>
-              <strong>Current GPA:</strong> 3.5
+            <p className="cardP">
+              <strong>Hobbies:</strong> Beach Volleyball, Basketball, Movies and
+              TV, LEGOS
             </p>
           </div>
         </div>

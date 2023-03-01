@@ -32,6 +32,12 @@
   color: #c69214;
 }
 
+.cardP {
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
