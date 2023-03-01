@@ -8,7 +8,7 @@ It is a work in progress so will most likely have various changes over time as I
 You can copy this github repository and open it in whatever IDE you prefer. 
 You can then open it and use in the terminal
 
-# cd frontend
+## cd frontend
 
 to move to the frontend folder. You can then run 
 
