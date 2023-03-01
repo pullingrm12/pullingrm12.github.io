@@ -10,15 +10,17 @@ You can then open it and use in the terminal
 
 ### cd frontend
 
-to move to the frontend folder. You can then run 
+to move to the frontend folder. 
+You can then run 
 
 ### npm i 
 
-in the terminal to install everything you need. And finally, by running
+in the terminal to install everything you need. 
+And finally, run
 
 ### npm start
 
-it should open under 
+and it should open under 
 
 ### localhost:3000
 
