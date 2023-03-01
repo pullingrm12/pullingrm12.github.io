@@ -4,6 +4,7 @@ import About from "./About.jsx";
 import Education from "./Education.jsx";
 import Languages from "./Languages.jsx";
 import Projects from "./Project.jsx";
+import Work from "./Work.jsx";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Education />
       <Languages />
       <Projects />
+      <Work />
     </div>
   );
 }
