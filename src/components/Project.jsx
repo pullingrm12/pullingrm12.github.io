@@ -20,6 +20,7 @@ function Projects() {
     }, 3000);
     return () => clearInterval(id);
   });
+
   return (
     <div className="container">
       <div className="card">
