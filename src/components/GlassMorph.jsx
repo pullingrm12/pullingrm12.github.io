@@ -25,21 +25,27 @@ function Glass() {
         </div>
         <ul className="sci">
           <li>
-            <a href="https://www.instagram.com/rhystopher_pulling12/">
+            <a
+              href="https://www.instagram.com/rhystopher_pulling12/"
+              target="_blank"
+            >
               <i className="fa fa-instagram">
                 <img src={insta} alt="link to instagram" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/pullingrm12">
+            <a href="https://github.com/pullingrm12" target="_blank">
               <i className="fa fa-github">
                 <img src={github} alt="link to github" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rhys-pulling-25470a22b/">
+            <a
+              href="https://www.linkedin.com/in/rhys-pulling-25470a22b/"
+              target="_blank"
+            >
               <i className="fa fa-github">
                 <img src={linked} alt="link to linkedin" />
               </i>
