@@ -2,6 +2,12 @@
 
 This project is my personal website with certain information about myself for those interested. 
 It is a work in progress so will most likely have various changes over time as I improve. 
+You can view the website using github pages on the link :
+
+## https://pullingrm12.github.io/
+
+The main branch has all of the important folders and code. The gh-pages branch is being used to help
+deploy the javascript website as seen. 
 
 # How to use locally
 
