@@ -15,6 +15,12 @@ function About() {
               <strong>Location:</strong> Highlands Ranch, CO
             </p>
             <p className="cardP">
+              <strong>
+                Fields of Interest : <br></br>
+              </strong>{" "}
+              AI, ML, Data Science, Software Engineering
+            </p>
+            <p className="cardP">
               <strong>Hobbies:</strong> Beach Volleyball, Basketball, Movies and
               TV, LEGOS
             </p>

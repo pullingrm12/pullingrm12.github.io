@@ -4,7 +4,7 @@ import me from "../images/me.JPG";
 import insta from "../images/insta.png";
 import github from "../images/github.png";
 import linked from "../images/linkedin.png";
-import resume from "../images/Rhys Pulling Resume 2022.docx.pdf";
+import resume from "../images/Pulling Resume 2023.pdf";
 
 function Glass() {
   return (
@@ -25,21 +25,27 @@ function Glass() {
         </div>
         <ul className="sci">
           <li>
-            <a href="https://www.instagram.com/rhystopher_pulling12/">
+            <a
+              href="https://www.instagram.com/rhystopher_pulling12/"
+              target="_blank"
+            >
               <i className="fa fa-instagram">
                 <img src={insta} alt="link to instagram" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/pullingrm12">
+            <a href="https://github.com/pullingrm12" target="_blank">
               <i className="fa fa-github">
                 <img src={github} alt="link to github" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rhys-pulling-25470a22b/">
+            <a
+              href="https://www.linkedin.com/in/rhys-pulling-25470a22b/"
+              target="_blank"
+            >
               <i className="fa fa-github">
                 <img src={linked} alt="link to linkedin" />
               </i>
