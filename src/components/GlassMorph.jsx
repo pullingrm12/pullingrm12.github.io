@@ -4,7 +4,7 @@ import me from "../images/me.JPG";
 import insta from "../images/insta.png";
 import github from "../images/github.png";
 import linked from "../images/linkedin.png";
-import resume from "../images/Rhys Pulling Resume 2022.docx.pdf";
+import resume from "../images/Pulling Resume 2023.pdf";
 
 function Glass() {
   return (
